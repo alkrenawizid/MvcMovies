@@ -1,7 +1,18 @@
-﻿@{
+﻿<style>
+    .jumbotron {
+        padding-top:50px;
+        background-color: lightblue;
+    }
+</style>
+
+@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<div class="jumbotron">
+    <div class="container">
+        <h2>@ViewBag.Title.</h2>
+        <br />
+        <p>Mvc Movies Web Application with ASP.NET Framework</p>
+    </div>
+</div>
 
-<p>Use this area to provide additional information.</p>
